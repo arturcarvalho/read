@@ -1,10 +1,3 @@
-/* COPY PASTE AREA
-,{
-	"l1" : "",
-	"l2" : ""
-}
-*/
-
 
 window.onload = function () {
 	var obama = {
@@ -338,13 +331,14 @@ window.onload = function () {
 			{ "l1": " Deixem-nos orgulhosos de vocês. ", "l2": " Make us all proud. " },
 			{ "l1": " Eu sei que vocês conseguem.", "l2": " I know you can do it." },
 			{ "l1": "Obrigado. Deus abençoe. E Deus abençoe os Estados Unidos.", "l2": "Thank you, God bless you, and God bless America." }
-
-
 		]
 	};
 
+	// length 252 = 20 min = 5 chaps = 50 lines per chap
+
 	var currentIdx = 0;
 	currentTxt = obama;
+
 	var next = function () {
 		if (currentIdx >= currentTxt.pages.length) {
 			$('.l1').html('');
