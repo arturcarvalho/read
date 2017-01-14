@@ -1,26 +1,6 @@
 
 var load = function (idx) {
 	var obama1 = {
-		"name": "obama",
-		"l1": "pt",
-		"l2": "en",
-		"description": "Discurso do Obama",
-		"pages": [
-			{
-				"l1": "O presidente: Olá a todos – Como está todo mundo hoje?",
-				"l2": "The President: Hello everyone – how’s everybody doing today?"
-			},
-			{
-				"l1": "Eu estou aqui com alunos na Wakefield High School em Arlington, Virginia.",
-				"l2": "I’m here with students at Wakefield High School in Arlington, Virginia."
-			}]
-	};
-
-	var obama = {
-		"name": "obama",
-		"l1": "pt",
-		"l2": "en",
-		"description": "Discurso do Obama",
 		"pages": [
 			{
 				"l1": "O presidente: Olá a todos – Como está todo mundo hoje?",
@@ -77,8 +57,8 @@ var load = function (idx) {
 			, {
 				"l1": "Eu conheço essa sensação.",
 				"l2": "I know that feeling."
-			}
-			, {
+			},
+			{
 				"l1": "Quando eu era novo, minha família morou na Indonésia durante alguns anos,",
 				"l2": "When I was young, my family lived in Indonesia for a few years, "
 			}
@@ -134,6 +114,11 @@ var load = function (idx) {
 			{ "l1": "e mudar as escolas que não estão dando certo,", "l2": "and turning around schools that aren’t working" },
 			{ "l1": "onde os alunos não estiverem tendo as oportunidades que merecem.", "l2": "where students aren’t getting the opportunities they deserve." },
 			{ "l1": "Mas, no fim de tudo, ", "l2": "But at the end of the day, " },
+		]
+	};
+
+	var obama2 = {
+		"pages": [
 			{ "l1": "nós podemos ter os professores mais dedicados, ", "l2": "we can have the most dedicated teachers, " },
 			{ "l1": "os pais que mais apoiam, ", "l2": "the most supportive parents, " },
 			{ "l1": "e as melhores escolas do mundo – ", "l2": "and the best schools in the world – " },
@@ -189,7 +174,12 @@ var load = function (idx) {
 			{ "l1": " Se vocês não fizerem isso - se disistirem da escola -", "l2": " If you don’t do that – if you quit on school – " },
 			{ "l1": " não estão apenas a desistir de vocês,", "l2": " you’re not just quitting on yourself, " },
 			{ "l1": " estão desistir do vosso país.", "l2": " you’re quitting on your country." },
-			{ "l1": "Eu sei que não é sempre fácil se sair bem na escola. ", "l2": "Now I know it’s not always easy to do well in school. " },
+			{ "l1": "Eu sei que não é sempre fácil se sair bem na escola. ", "l2": "Now I know it’s not always easy to do well in school. " }
+		]
+	};
+
+	var obama3 = {
+		"pages": [
 			{ "l1": "Eu sei que muitos de vocês têm desafios (dificuldades) nas suas vidas, ", "l2": "I know a lot of you have challenges in your lives right now " },
 			{ "l1": "que podem dificultar a concentração na escola.", "l2": "that can make it hard to focus on your schoolwork." },
 			{ "l1": "Eu entendo isto. Eu sei como é. ", "l2": "I get it. I know what that’s like. " },
@@ -234,7 +224,12 @@ var load = function (idx) {
 			{ "l1": " e agora está se formando, estudando saúde pública, ", "l2": "and is now in graduate school, studying public health, " },
 			{ "l1": " e vai ser Doutora Jazmin Perez.", "l2": "on her way to being Dr. Jazmin Perez." },
 			{ "l1": "Eu estou pensando no Andoni Schultz, ", "l2": "I’m thinking about Andoni Schultz, " },
-			{ "l1": "de Los Altos, California,", "l2": "from Los Altos, California, " },
+			{ "l1": "de Los Altos, California,", "l2": "from Los Altos, California, " }
+		]
+	}
+
+	var obama4 = {
+		"pages": [
 			{ "l1": " que lutou contra o câncer no cérebro desde os três anos.", "l2": "who’s fought brain cancer since he was three. " },
 			{ "l1": " Ele suportou todos os tipos de tratamentos e cirurgias,", "l2": "He’s endured all sorts of treatments and surgeries, " },
 			{ "l1": " uma delas afetou a memória dele,", "l2": "one of which affected his memory, " },
@@ -284,6 +279,12 @@ var load = function (idx) {
 			{ "l1": "Algumas das pessoas mais bem sucedidas do mundo são as que tiveram mais fracassos.", "l2": "Some of the most successful people in the world are the ones who’ve had the most failures. " },
 			{ "l1": " O primeiro livro do Harry Potter de JK Rowling foi rejeitado 12 vezes até ser publicado.", "l2": "JK Rowling’s first Harry Potter book was rejected twelve times before it was finally published. " },
 			{ "l1": " Michael Jordan foi cortado de seu time de basquete, no ensino médio, ", "l2": "Michael Jordan was cut from his high school basketball team, " },
+		]
+	}
+
+	var obama5 = {
+		"pages": [
+
 			{ "l1": " e ele perdeu centenas de jogos e errou milhares de cestas durante sua carreira.", "l2": "and he lost hundreds of games and missed thousands of shots during his career. " },
 			{ "l1": " Mas ele uma vez disse: “Eu fracassei muito, muito mesmo, na vida, e é por isso que tenho sucesso.’’", "l2": "But he once said, \"I have failed over and over and over again in my life. And that is why I succeed.\"" },
 			{ "l1": "Estas pessoas tiveram sucesso porque elas entendem que você não pode deixar os fracassos o definirem – ", "l2": "These people succeeded because they understand that you can’t let your failures define you –" },
@@ -351,7 +352,7 @@ var load = function (idx) {
 	};
 
 	// length 252 = 20 min = 5 chaps = 50 lines per chap
-	var l = [obama1, obama];
+	var l = [obama1, obama2, obama3, obama4, obama5];
 	var currentIdx = 0;
 	var currentTxt = l[idx];
 	var len = currentTxt.pages.length;
