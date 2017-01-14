@@ -353,7 +353,8 @@ var load = function (idx) {
 	// length 252 = 20 min = 5 chaps = 50 lines per chap
 	var l = [obama1, obama];
 	var currentIdx = 0;
-	currentTxt = l[idx];
+	var currentTxt = l[idx];
+	var len = currentTxt.pages.length;
 
 
 	var next = function () {
@@ -364,6 +365,8 @@ var load = function (idx) {
 			return;
 		}
 
+		var progress = (currentIdx + 1) + " de " + len;
+		$('.progress').html(progress);
 		$('.l1').html(currentTxt.pages[currentIdx].l1);
 		$('.l2').html(currentTxt.pages[currentIdx].l2);
 		currentIdx++;

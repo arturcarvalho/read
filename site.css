@@ -9,7 +9,7 @@ body {
 
 .container {
 	padding: 25px;
-	width: 800px;
+	width: 700px;
 	margin: 0 auto;
 	background: #F8F1E3;
 }
@@ -21,4 +21,11 @@ padding: 25px 0px;
 #next a {	
 	text-decoration: none;
 	font-weight: bold;
+}
+
+.progress {
+	margin-top: -10px;
+	float: right;
+	font-style: italic;
+	color: #ccc;
 }
