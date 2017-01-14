@@ -1,5 +1,21 @@
 
-window.onload = function () {
+var load = function (idx) {
+	var obama1 = {
+		"name": "obama",
+		"l1": "pt",
+		"l2": "en",
+		"description": "Discurso do Obama",
+		"pages": [
+			{
+				"l1": "O presidente: Olá a todos – Como está todo mundo hoje?",
+				"l2": "The President: Hello everyone – how’s everybody doing today?"
+			},
+			{
+				"l1": "Eu estou aqui com alunos na Wakefield High School em Arlington, Virginia.",
+				"l2": "I’m here with students at Wakefield High School in Arlington, Virginia."
+			}]
+	};
+
 	var obama = {
 		"name": "obama",
 		"l1": "pt",
@@ -335,9 +351,10 @@ window.onload = function () {
 	};
 
 	// length 252 = 20 min = 5 chaps = 50 lines per chap
-
+	var l = [obama1, obama];
 	var currentIdx = 0;
-	currentTxt = obama;
+	currentTxt = l[idx];
+
 
 	var next = function () {
 		if (currentIdx >= currentTxt.pages.length) {
@@ -365,5 +382,6 @@ window.onload = function () {
 		e.preventDefault();
 		next();
 
-	})
+	});
 }
+
