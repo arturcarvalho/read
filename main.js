@@ -65,7 +65,74 @@ window.onload = function() {
 	"l1" : "para que pudessem ficar na cama mais um pouco hoje de manhã.",
 	"l2" : "and you could’ve stayed in bed just a little longer this morning."
 }
-
+,{
+	"l1" : "Eu conheço essa sensação.",
+	"l2" : "I know that feeling."
+}
+,{
+	"l1" : "Quando eu era novo, minha família morou na Indonésia durante alguns anos,",
+	"l2" : "When I was young, my family lived in Indonesia for a few years, "
+}
+,{
+	"l1" : "e minha mãe não tinha dinheiro",
+	"l2" : "and my mother didn’t have the money"
+}
+,{
+	"l1" : "para me mandar para as escolas onde todas as crianças americanas frequentavam.",
+	"l2" : "to send me where all the American kids went to school."
+}
+,{
+	"l1" : "Então ela decidiu me dar aulas extras ela mesma,",
+	"l2" : "So she decided to teach me extra lessons herself,"
+}
+,{
+	"l1" : "de segunda a sábado – às 4:30 da manhã.",
+	"l2" : "Monday through Friday – at 4:30 in the morning. "
+}
+,{
+	"l1" : "Eu não ficava muito satisfeito em levantar tão cedo.",
+	"l2" : "Now I wasn’t too happy about getting up that early."
+}
+,{
+	"l1" : "Muitas vezes, eu pegava no sono sentado na mesa da cozinha.",
+	"l2" : "A lot of times, I’d fall asleep right there at the kitchen table."
+}
+,{
+	"l1" : "Mas, sempre que eu reclamava,",
+	"l2" : "But whenever I’d complain,"
+}
+,{
+	"l1" : "minha mãe me dava uma daquelas olhadas e dizia:",
+	"l2" : "my mother would just give me one of those looks and say,"
+}
+,{
+	"l1" : "'Isto não é brincadeira (não é fácil) para mim também, moleque.'",
+	"l2" : "'This is no picnic for me either, buster.'"
+}
+,{
+	"l1" : "",
+	"l2" : ""
+}
+,{
+	"l1" : "",
+	"l2" : ""
+}
+,{
+	"l1" : "",
+	"l2" : ""
+}
+,{
+	"l1" : "",
+	"l2" : ""
+}
+,{
+	"l1" : "",
+	"l2" : ""
+}
+,{
+	"l1" : "",
+	"l2" : ""
+}
 
 
 
