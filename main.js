@@ -361,6 +361,12 @@ window.onload = function () {
 	// show first line when loading
 	next();
 
+	$(document).keypress(function (e) {
+		if (e.which == 13) {
+			next();
+		}
+	});
+
 	$('#next').click(function (e) {
 		e.preventDefault();
 		next();
