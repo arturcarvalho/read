@@ -6,12 +6,17 @@ body {
 
 .l1, .l2 {
 	padding: 10px 0;
+
 }
 .conts {
 	padding: 0 20px;
 }
-h1.lst {
+
+.light {
 	color: #c2c2c2;
+}
+.chap {
+	padding: 5px 0px;
 }
 
 .container {
