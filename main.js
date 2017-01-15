@@ -31,7 +31,7 @@ var load = function (idx) {
 				"l2": "it’s your first day in a new school,"
 			}
 			, {
-				"l1": "então é compreensível se estiver um pouco nervoso<b>s</b> (ansioso).",
+				"l1": "então é compreensível se estiver um pouco nervoso (ansioso).",
 				"l2": "so it’s understandable if you’re a little nervous."
 			}
 			, {
@@ -75,7 +75,7 @@ var load = function (idx) {
 				"l2": "So she decided to teach me extra lessons herself,"
 			}
 			, {
-				"l1": "de segunda a sábado – às 4:30 da manhã.",
+				"l1": "de segunda a sexta – às 4:30 da manhã.",
 				"l2": "Monday through Friday – at 4:30 in the morning. "
 			}
 			, {
@@ -129,7 +129,7 @@ var load = function (idx) {
 			{ "l1": " ouçam seus pais, avós e outros adultos. ", "l2": "listen to your parents, grandparents and other adults; " },
 			{ "l1": " E se esforcem da forma que é necessária para ter sucesso.", "l2": "and put in the hard work it takes to succeed." },
 			{ "l1": "E é nisso que eu quero me concentrar hoje: ", "l2": "And that’s what I want to focus on today:" },
-			{ "l1": "na responsabilidade que cada um de vocês têm pela sua educação. ", "l2": " the responsibility each of you has for your education. " },
+			{ "l1": "na responsabilidade que cada um de vocês tem pela sua educação. ", "l2": " the responsibility each of you has for your education. " },
 			{ "l1": "Eu quero começar pela responsabilidade que vocês têm para consigo mesmos.", "l2": " I want to start with the responsibility you have to yourself." },
 			{ "l1": "Cada um de vocês tem alguma coisa que sabe fazer bem. ", "l2": "Every single one of you has something you’re good at. " },
 			{ "l1": "Cada um tem algo a oferecer. ", "l2": "Every single one of you has something to offer. " },
@@ -144,21 +144,21 @@ var load = function (idx) {
 			{ "l1": "mas você pode não perceber isso até que faça um trabalho para a aula de ciências. ", "l2": " but you might not know it until you do a project for your science class. " },
 			{ "l1": "Talvez possa ser um prefeito ou senador ou ministro do Supremo Tribunal Federal de Justiça, ", "l2": " Maybe you could be a mayor or a Senator or a Supreme Court Justice, " },
 			{ "l1": "mas pode não saber que consegue isso até que participe de um grêmio estudantil ou grupo de debates.", "l2": " but you might not know that until you join student government or the debate team." },
-			{ "l1": "And no matter what you want to do with your life – ", "l2": "E não importa o que você queira fazer da sua vida – " },
-			{ "l1": "I guarantee that you’ll need an education to do it. ", "l2": "eu garanto que vai precisar de educação para conseguir. " },
-			{ "l1": "You want to be a doctor, or a teacher, or a police officer? ", "l2": "Quer ser médico, professor ou policial? " },
-			{ "l1": "You want to be a nurse or an architect, ", "l2": "Quer ser enfermeira ou arquiteto, " },
-			{ "l1": "a lawyer or a member of our military? ", "l2": "advogado ou militar? " },
-			{ "l1": "You’re going to need a good education for every single one of those careers. ", "l2": "Você vai precisar de educação para qualquer uma dessas carreiras. " },
-			{ "l1": "You can’t drop out of school and just drop into a good job. ", "l2": "Não se pode largar a escola e simplesmente arrumar um bom trabalho. " },
-			{ "l1": "You’ve got to work for it and train for it and learn for it.", "l2": "É preciso trabalhar para isto, treinar para isto, e aprender para isto." },
-			{ "l1": "And this isn’t just important for your own life and your own future. ", "l2": "E isto não é só importante para sua própria vida ou futuro. " },
-			{ "l1": "What you make of your education ", "l2": "O que você fizer da sua educação" },
-			{ "l1": "will decide nothing less than the future of this country. ", "l2": " irá decidir nada mais, nada menos do que o futuro deste país." },
-			{ "l1": "What you’re learning in school today ", "l2": " O que você estiver aprendendo na escola hoje " },
-			{ "l1": "will determine whether we as a nation can meet our greatest challenges in the future.", "l2": "irá dizer se nós como nação conseguiremos enfrentar nossos maiores desafios no futuro." },
+			{ "l2": "And no matter what you want to do with your life – ", "l1": "E não importa o que você queira fazer da sua vida – " },
+			{ "l2": "I guarantee that you’ll need an education to do it. ", "l1": "eu garanto que vai precisar de educação para conseguir. " },
+			{ "l2": "You want to be a doctor, or a teacher, or a police officer? ", "l1": "Quer ser médico, professor ou policial? " },
+			{ "l2": "You want to be a nurse or an architect, ", "l1": "Quer ser enfermeira ou arquiteto, " },
+			{ "l2": "a lawyer or a member of our military? ", "l1": "advogado ou militar? " },
+			{ "l2": "You’re going to need a good education for every single one of those careers. ", "l1": "Você vai precisar de educação para qualquer uma dessas carreiras. " },
+			{ "l2": "You can’t drop out of school and just drop into a good job. ", "l1": "Não se pode largar a escola e simplesmente arrumar um bom trabalho. " },
+			{ "l2": "You’ve got to work for it and train for it and learn for it.", "l1": "É preciso trabalhar para isto, treinar para isto, e aprender para isto." },
+			{ "l2": "And this isn’t just important for your own life and your own future. ", "l1": "E isto não é só importante para sua própria vida ou futuro. " },
+			{ "l2": "What you make of your education ", "l1": "O que você fizer da sua educação" },
+			{ "l2": "will decide nothing less than the future of this country. ", "l1": " irá decidir nada mais, nada menos do que o futuro deste país." },
+			{ "l2": "What you’re learning in school today ", "l1": " O que você estiver aprendendo na escola hoje " },
+			{ "l2": "will determine whether we as a nation can meet our greatest challenges in the future.", "l1": "irá dizer se nós como nação conseguiremos enfrentar nossos maiores desafios no futuro." },
 			{ "l1": "Você vai precisar do conhecimento e das habilidades", "l2": "You’ll need the knowledge and problem-solving skills " },
-			{ "l1": " para resolver problemas que aprendem em ciências e matemátic", "l2": "you learn in science and math " },
+			{ "l1": " para resolver problemas que aprendem em ciências e matemática", "l2": "you learn in science and math " },
 			{ "l1": " a para curar doenças, como o câncer e a AIDS,", "l2": "to cure diseases like cancer and AIDS, " },
 			{ "l1": " e desenvolver novas tecnologias energéticas e proteger o nosso meio ambiente. ", "l2": "and to develop new energy technologies and protect our environment. " },
 			{ "l1": " Você vai precisar das habilidades de intuição e pensamento crítico ", "l2": "You’ll need the insights and critical thinking skills " },
@@ -173,7 +173,7 @@ var load = function (idx) {
 			{ "l1": " para que possa resolver nossos problemas mais difíceis.", "l2": " so you can help solve our most difficult problems. " },
 			{ "l1": " Se vocês não fizerem isso - se disistirem da escola -", "l2": " If you don’t do that – if you quit on school – " },
 			{ "l1": " não estão apenas a desistir de vocês,", "l2": " you’re not just quitting on yourself, " },
-			{ "l1": " estão desistir do vosso país.", "l2": " you’re quitting on your country." },
+			{ "l1": " estão a desistir do vosso país.", "l2": " you’re quitting on your country." },
 			{ "l1": "Eu sei que não é sempre fácil se sair bem na escola. ", "l2": "Now I know it’s not always easy to do well in school. " }
 		]
 	};
@@ -362,7 +362,7 @@ var load = function (idx) {
 		if (currentIdx >= currentTxt.pages.length) {
 			$('.l1').html('');
 			$('.l2').html('');
-			$('.end').html('FIM!');
+			$('.end').html('Fim capítulo, clicar voltar para ler mais.');
 			return;
 		}
 
